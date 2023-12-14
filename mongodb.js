@@ -1,8 +1,7 @@
 const { MongoClient } = require('mongodb');
 
 // Connection URI for MongoDB with PLAIN authentication and TLS/SSL
-const uri = 'mongodb://amit.patil:Jaguar%4012@txmongowcsdev1.mouser.lan:27017,txmongowcsdev2.mouser.lan:27018,txmongowcsdev3.mouser.lan:27019/VSCODE?authMechanism=PLAIN&authSource=%24external&tls=true&tlsCAFile=C%3A%5CAmit%5CMongoDB%5CSecurity_certificate%5Cmouser-lan-root-ca+%282%29.crt';
-
+const uri = ''
 // Additional options (if needed)
 const clientOptions = {
   useNewUrlParser: true,
